@@ -82,51 +82,51 @@ inquirer.prompt([
     const github = response.github;
     const email = response.email;
     const markDown = 
-    `##${title}
+    `## ${title}
     ==========
     
     ${liscence}
     
-    ##table of contents 
+  ## table of contents 
     ===================
     <!--ts-->
     ${contents} 
     <!--te-->
 
-    ##description: 
+  ## description: 
     ==============
     ${description} 
     
     
-    ##how to contribute:
+  ## how to contribute:
     ====================
     ${contribution} 
     
-    ##questions?
+  ## questions?
     ============
     Please check out: ${questions}
     Or you can reach to me on Github here: ${github}
     Im also available via email here: ${email} 
     
     
-    ##installation 
+  ## installation 
     ==============
     
     ${installation} 
     
-    ##how to use 
+  ## how to use 
     ============
     
     ${usage}
     
-    ##testing 
+  ## testing 
     ========
     
     ${test}`; 
 
 
 // function to write README file
-fs.writeFile("README.md", markDown, function(err) {
+fs.writeFile("README.MD", markDown, function(err) {
         
     if (err) {
       return console.log(err);
