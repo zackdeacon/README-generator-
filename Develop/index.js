@@ -18,7 +18,7 @@ inquirer.prompt([
         type: "checkbox",
         message: "what would you like to include in the table of contents?",
         name: "contents",
-        choices: ["[description](#description)", "[how to contribute](#how to contribute)", "[insitillation](#instillation)", "[how to use](#how to use)", "[testing](#testing)"]
+        choices: ["*[description](#description)", "*[how to contribute](#how to contribute)", "*[insitillation](#instillation)", "*[how to use](#how to use)", "[testing](#testing)"]
       },
       {
         type: "input",
@@ -37,9 +37,9 @@ inquirer.prompt([
         name: "liscence",
         choices: [
             `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`,
-             "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)",
-              "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
-               "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"]
+             `[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)`,
+              `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`,
+               `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`]
       },
       {
         type: "input",
@@ -83,44 +83,44 @@ inquirer.prompt([
     const email = response.email;
     const markDown = 
    `## ${title}
-==========
+
     
   ${liscence}
     
   ## table of contents 
-===================
+
     
   ${contents} 
   
 
   ## description: 
-==============
+
   ${description} 
     
     
   ## how to contribute:
-====================
+
   ${contribution} 
     
   ## questions?
-============
+
   Please check out: ${questions}
   Or you can reach to me on Github here: ${github}
   Im also available via email here: ${email} 
     
     
   ## installation 
-==============
+
     
   ${installation} 
     
   ## how to use 
-============
+
     
   ${usage}
     
   ## testing 
-========
+
     
   ${test}`; 
 
