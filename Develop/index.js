@@ -104,9 +104,9 @@ inquirer.prompt([
     
   ## questions?
 
-  Please check out: ${questions}
-  Or you can reach to me on Github here: ${github}
-  Im also available via email here: ${email} 
+ > **Please check out:** ${questions}
+ > **Or you can reach to me on Github here:** (https://github.com/${github})
+ > **Im also available via email here:** (${email}) 
     
     
   ## installation 
