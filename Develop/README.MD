@@ -20,9 +20,9 @@
     
   ## questions?
 
- > **Please check out:** to me!!!!!
- > **Or you can reach to me on Github here:** (https://github.com/zackdeacon)
- > **Im also available via email here:** (zackdeacon347@gmail.com) 
+ * **Please check out:** to me!!!!!
+ * **Or you can reach to me on Github here:** [Github](https://github.com/zackdeacon)
+ * **Im also available via email here:** [Email me!](zackdeacon347@gmail.com) 
     
     
   ## installation 
