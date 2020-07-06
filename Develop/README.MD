@@ -1,26 +1,29 @@
-## Zack Deacon
+## Zack 
 
     
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
   ## table of contents 
 
-    
-  [testing](#testing) 
+* [description](#description)
+* [contribution](#contribution)  
+* [insitillation](#instillation)
+* [usage](#usage)
+* [testing](#testing)
   
 
   ## description: 
 
-  al ot of things but this is a test  
+  its almost done!  
     
     
   ## how to contribute:
 
-  do it upppppp 
+  feel free to contribute  
     
   ## questions?
 
- * **Please check out:** to me!!!!!
+ * **Please check out:** you can feel free to visit my social media or comment on github 
  * **Or you can reach to me on Github here:** [Github](https://github.com/zackdeacon)
  * **Im also available via email here:** [Email me!](zackdeacon347@gmail.com) 
     
@@ -28,12 +31,12 @@
   ## installation 
 
     
-  lotta lotta steps  
+  lotta steps 
     
   ## how to use 
 
     
-  usei t all day erry day 
+  ubviuelrbvuier
     
   ## testing 
 

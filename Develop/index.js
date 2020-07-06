@@ -13,13 +13,17 @@ inquirer.prompt([
         message: "What would you like to put into the description of your README?",
         name: "description"
       },
-      {
-          //when clicked they need to take user to that section of the README
-        type: "checkbox",
-        message: "what would you like to include in the table of contents?",
-        name: "contents",
-        choices: ["*[description](#description)", "*[how to contribute](#how to contribute)", "*[insitillation](#instillation)", "*[how to use](#how to use)", "[testing](#testing)"]
-      },
+      // {
+      //     //when clicked they need to take user to that section of the README
+      //   type: "checkbox",
+      //   message: "what would you like to include in the table of contents?",
+      //   name: "contents",
+      //   choices: [`*[description](#description) \n` , 
+      //   `*[how to contribute](#how to contribute) \n` , 
+      //   `*[insitillation](#instillation) \n` , 
+      //   `*[how to use](#how to use) \n` , 
+      //   `*[testing](#testing)`]
+      // },
       {
         type: "input",
         message: "What are the steps required for installation?",
@@ -89,8 +93,11 @@ inquirer.prompt([
     
   ## table of contents 
 
-    
-  ${contents} 
+* [description](#description)
+* [contribution](#contribution)  
+* [insitillation](#instillation)
+* [usage](#usage)
+* [testing](#testing)
   
 
   ## description: 
@@ -104,9 +111,9 @@ inquirer.prompt([
     
   ## questions?
 
- > **Please check out:** ${questions}
- > **Or you can reach to me on Github here:** (https://github.com/${github})
- > **Im also available via email here:** (${email}) 
+ * **Please check out:** ${questions}
+ * **Or you can reach to me on Github here:** [Github](https://github.com/${github})
+ * **Im also available via email here:** [Email me!](${email}) 
     
     
   ## installation 
