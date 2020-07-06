@@ -89,44 +89,44 @@ inquirer.prompt([
    `## ${title}
 
     
-  ${liscence}
+${liscence}
     
-  ## table of contents 
+## table of contents 
 
-* [description](#description)
-* [contribution](#contribution)  
-* [insitillation](#instillation)
-* [usage](#usage)
-* [testing](#testing)
+* [description](#Description)
+* [contribution](#Contribution)  
+* [insitillation](#Instillation)
+* [usage](#Usage)
+* [testing](#Testing)
   
 
-  ## description: 
+## Description: 
 
-  ${description} 
+${description} 
     
     
-  ## how to contribute:
+## Contribution:
 
-  ${contribution} 
+${contribution} 
     
-  ## questions?
+## Questions?
 
- * **Please check out:** ${questions}
- * **Or you can reach to me on Github here:** [Github](https://github.com/${github})
- * **Im also available via email here:** [Email me!](${email}) 
+* **Please check out:** ${questions}
+* **Or you can reach to me on Github here:** [Github](https://github.com/${github})
+* **Im also available via email here:** [Email me!](${email}) 
     
     
-  ## installation 
+## Installation 
 
     
   ${installation} 
     
-  ## how to use 
+## Usage 
 
     
   ${usage}
     
-  ## testing 
+## Testing 
 
     
   ${test}`; 
